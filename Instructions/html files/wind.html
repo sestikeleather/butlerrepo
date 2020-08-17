@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--starter stuff-->
+
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+   integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   
+   <link href="../css/styles.css" type="text/css" rel="stylesheet">
+<!--css-->
+   <title>Analysis - WindSpeed</title>
+</head>
+
+
+
+
+
+<!---make nav bar and drop down-->
+<body>
+   <nav id="nav" class="navbar navbar-expand-md">
+      <a class="navbar-brand mr-0 mr-md-2" href="/html/landing.html"><b>Latitude</b></a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+         <ul class="navbar-nav flex-row ml-md-auto">
+            <li class="nav-item dropdown">
+               <button class="btn dropdown-toggle mr-md-2" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Charts
+               </button>
+
+               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="/html/cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="/html/humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="/html/temperature.html">Max Temp</a>
+                  <a class="dropdown-item" href="/html/wind.html">WindSpeed</a>
+               </div>
+            </li>
+
+            <li class="nav-item active">
+               <a class="nav-link p-2" href="/html/comparisons.html">Comparison</a>
+            </li>
+
+            <li class="nav-item active">
+               <a class="nav-link p-2" href="/html/data.html">Data</a>
+            </li>
+         </ul>
+
+      </div>
+
+   </nav>
+
+
+    <!--summarty container-->
+   <main class="container mt-4">
+    <div class="row ">
+       <div id="text" class="box col-md-7 mr-4">
+          <h2><strong>Latitude vs. Wind Speed</strong></h2>
+          <hr>
+          <!--insert visuals-->
+          <img class="w-100" src="../Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed">
+
+          <p class="text-justify" >Windspeeds around the equator are near average. There isn't a strong correlation between wind speeds and latitude above or below equator. Between 40 & 60 degrees latitude reported the highest recorded wind speeds.
+          </p>
+          
+       </div>
+
+       <div id="images" class="box col-md-4 ml-4 text-center">
+
+          <h2><strong>Analysis Visualizations</strong></h2>
+          <hr>
+
+          <div class="row">
+             <div class="col-md-6">
+                <a href="cloudiness.html" target="_blank"><img class="img-thumbnail"
+                      src="../Resources/assets/images/Fig3.png" alt="Cloudiness visualization"></a>
+                <a href="humidity.html" target="_blank"><img class="img-thumbnail"
+                      src="../Resources/assets/images/Fig2.png" alt="Humidity visualization"></a>
+             </div>
+
+             <div class="col-md-6">
+                <a href="temperature.html" target="_blank"><img class="img-thumbnail"
+                      src="../Resources/assets/images/Fig1.png" alt="Max Temperature visualization"></a>
+                <a href="wind.html" target="_blank"><img class="img-thumbnail"
+                      src="../Resources/assets/images/Fig4.png" alt="Wind Speed visualization"></a>
+
+             </div>
+          </div>
+       </div>
+    </div>
+ </main>
+ 
+<!--required-->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--starter stuff-->
+
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+   integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   
+   <link href="../css/styles.css" type="text/css" rel="stylesheet">
+<!--css-->
+   <title>Latitude Comparison</title>
+</head>
+
+
+
+
+
+<!---make nav bar and drop down-->
+<body>
+   <nav id="nav" class="navbar navbar-expand-md">
+      <a class="navbar-brand mr-0 mr-md-2" href="/html/landing.html"><b>Latitude</b></a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+         <ul class="navbar-nav flex-row ml-md-auto">
+            <li class="nav-item dropdown">
+               <button class="btn dropdown-toggle mr-md-2" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Charts
+               </button>
+
+               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="/html/cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="/html/wind.html">WindSpeed</a>
+                  <a class="dropdown-item" href="/html/humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="/html/temperature.html">Max Temp</a>
+                  
+               </div>
+            </li>
+
+            <li class="nav-item active">
+               <a class="nav-link p-2" href="/html/comparisons.html">Comparison</a>
+            </li>
+
+            <li class="nav-item active">
+               <a class="nav-link p-2" href="/html/data.html">Data</a>
+            </li>
+         </ul>
+
+      </div>
+
+   </nav>
+   <!--summarty container-->
+   <main class="container mt-4">
+    <div id="comp">
+       <h2><strong>Comparison: Latitude </strong></h2>
+       <hr>
+       <p>Select a Chart for a Deeper Look!</p>
+       <br>
+       
+    <!--insert visuals-->
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="text-center">vs. Cloudiness</h3>
+            <a href="cloudiness.html"><img id="comp-img" class="w-100" src="../Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness"></a>
+            <br>
+            <br>
+            <br>
+            <h3 class="text-center">vs. WindSpeed</h3>
+            <a href="wind.html"><img id="comp-img" class="w-100" src="../Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed"></a>
+         </div>  
+
+       <div class="col-md-6">
+            <h3 class="text-center">vs. Humidity</h3>
+            <a href="humidity.html"><img id="comp-img" class="w-100" src="../Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity"></a>
+            <br>
+            <br>
+            <br>
+            <h3 class="text-center">vs. Max. Temp</h3>
+          <a href="temperature.html"><img id="comp-img" class="w-100" src="../Resources/assets/images/Fig1.png" alt="Latitude vs. Max. Temperature"></a>
+         </div>
+       
+      
+    </div>
+
+    </div>
+
+</main>
+
+<footer id="footer" class="footer footer-expand-md text-center">
+ <p>Weather Data 2020</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

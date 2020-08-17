@@ -1,0 +1,41 @@
+body {
+  background-color: AntiqueWhite;
+}
+
+#nav {
+  background-color: #00FFFF;
+}
+
+.navbar-brand {
+  color: #F0F8FF;
+  background-color: #4aaaa5;
+  font-size: large;
+  padding: 12 20px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+  height: 60px;
+}
+
+.btn,
+.nav-link {
+  color: #FFE4C4;
+}
+
+.nav-item #images {
+  display: grid;
+}
+
+.box {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 600;
+  color: #2e8361;
+}
+
+#footer {
+  background-color: #297058;
+  font-size: 10px;
+}
